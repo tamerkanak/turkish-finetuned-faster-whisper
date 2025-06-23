@@ -1,8 +1,3 @@
-Aşağıda eğitim ve inference dosyalarının ayrıldığı, detaylı, profesyonel ve Github’a uygun bir `README.md` örneği hazırladım.
-Bu yapıyı doğrudan kullanabilirsin. Eklemek istediğin spesifik bir şey varsa birlikte güncelleyebiliriz.
-
----
-
 # 🚀 Turkish Fine-Tuned Faster-Whisper with LoRA
 
 Bu proje, **Faster-Whisper** modelinin Türkçe ses verileri ile fine-tune edilmesini ve ardından CTranslate2 formatına dönüştürülerek hızlı ve verimli bir şekilde inference yapılmasını amaçlamaktadır. Eğitim ve inference süreçleri **modüler bir yapıda** ayrı dosyalarda tasarlanmıştır.
