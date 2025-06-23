@@ -58,11 +58,7 @@ pip install evaluate jiwer datasets peft faster-whisper ctranslate2
 
 ## 🏋️ Eğitim Aşaması
 
-### `training.py`
-
-```bash
-python training.py
-```
+### `training.ipynb`
 
 Bu dosya şunları yapar:
 
@@ -84,11 +80,7 @@ klasörüne kaydedilir.
 
 ## 📝 İnference Aşaması
 
-### `inference.py`
-
-```bash
-python inference.py
-```
+### `inference.ipynb`
 
 Bu dosya şunları yapar:
 
@@ -113,12 +105,6 @@ ct2-transformers-converter --model "/content/drive/My Drive/whisper_finetuned" \
 ---
 
 ## 📊 Çıktı Örnekleri
-
-Eğitim sırasında örnek çıktı:
-
-```text
-Epoch 18 | Train Loss: 1.23 | Eval Loss: 1.10 | WER: 0.34
-```
 
 Transkripsiyon sırasında örnek çıktı:
 
