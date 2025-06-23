@@ -51,6 +51,8 @@ pip install evaluate jiwer datasets peft faster-whisper ctranslate2
 ## 🏋️ Eğitim Aşaması
 
 ### `training.ipynb`
+📌 Alternatif olarak Google Colab üzerinden çalışmak için:
+[📓 Colab'da Eğitim Notebook'u](https://colab.research.google.com/drive/19GAveEqQ7Ks9l4lkWRUOrGp3Tu0Rjgh8?usp=sharing)
 
 Bu dosya şunları yapar:
 
@@ -73,6 +75,7 @@ klasörüne kaydedilir.
 ## 📝 İnference Aşaması
 
 ### `inference.ipynb`
+[📓 Colab'da İnference Notebook'u](https://colab.research.google.com/drive/1zsoZUOCqH8IcjZH_5HArb2NK2b6Y-T9T?usp=sharing)
 
 Bu dosya şunları yapar:
 
@@ -114,6 +117,7 @@ Transcription:
 * GPU bellek verimliliği için LoRA kullanılmıştır.
 * Fine-tune işlemi düşük kaynaklı makinelerde optimize edilmiştir.
 * CTranslate2 dönüşümü inference hızını ciddi oranda artırır.
+* GitHub'da .ipynb dosyalarının çıktı hücreleri bazen görünmeyebilir. Çıktıları doğrudan görmek isterseniz yukarıda paylaşılan Colab linklerini kullanabilirsiniz.
 
 ---
 
