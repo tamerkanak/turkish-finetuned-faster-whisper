@@ -75,6 +75,7 @@ klasörüne kaydedilir.
 ## 📝 İnference Aşaması
 
 ### `inference.ipynb`
+📌 Alternatif olarak Google Colab üzerinden çalışmak için:
 [📓 Colab'da İnference Notebook'u](https://colab.research.google.com/drive/1zsoZUOCqH8IcjZH_5HArb2NK2b6Y-T9T?usp=sharing)
 
 Bu dosya şunları yapar:
