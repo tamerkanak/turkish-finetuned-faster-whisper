@@ -10,10 +10,10 @@ Bu proje, **Faster-Whisper** modelinin Türkçe ses verileri ile fine-tune edilm
 turkish-finetuned-faster-whisper/
 ├── training.py              # Eğitim aşaması
 ├── inference.py             # İnference aşaması
-├── requirements.txt         # Kullanılan kütüphaneler
 ├── README.md                # Proje dokümantasyonu
 ├── whisper_finetuned/       # Fine-tune edilmiş model ve tokenizer
 └── whisper_ct2_model/       # CTranslate2'ye dönüştürülmüş model
+└── whisper_checkpoints/     # Modelin eğitim sırasındaki checkpointleri
 ```
 
 ---
@@ -41,14 +41,6 @@ turkish-finetuned-faster-whisper/
 ---
 
 ## 📦 Kurulum
-
-Gerekli kütüphaneleri yüklemek için:
-
-```bash
-pip install -r requirements.txt
-```
-
-Google Colab kullanıyorsan ek olarak:
 
 ```bash
 pip install evaluate jiwer datasets peft faster-whisper ctranslate2
@@ -109,8 +101,10 @@ ct2-transformers-converter --model "/content/drive/My Drive/whisper_finetuned" \
 Transkripsiyon sırasında örnek çıktı:
 
 ```text
-Detected language: tr (probability: 0.99)
-[0.00s -> 2.50s] Merhaba, bu bir test kaydıdır.
+Transcription Results:
+Detected language: tr (probability: 1.00)
+Transcription:
+[0.00s -> 16.00s] Ne mutlu, türküm diyene.
 ```
 
 ---
@@ -120,7 +114,6 @@ Detected language: tr (probability: 0.99)
 * GPU bellek verimliliği için LoRA kullanılmıştır.
 * Fine-tune işlemi düşük kaynaklı makinelerde optimize edilmiştir.
 * CTranslate2 dönüşümü inference hızını ciddi oranda artırır.
-* `training.py` ve `inference.py` dosyaları tamamen bağımsız çalışır.
 
 ---
 
